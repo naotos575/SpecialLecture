@@ -1,2 +1,2 @@
 # SpecialLecture
-This is repo for NAIST Lectures.
+This is a repo for NAIST Lectures.
