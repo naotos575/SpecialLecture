@@ -3,12 +3,12 @@ from specilallecture.CSVPrinter import CSVPrinter
 
 class TestCSVPrinter(unittest.TestCase):
     def test_read1(self):
-        printer = CSVPrinter("./sample.csv")
+        printer = CSVPrinter("sample.csv")
         l = printer.read()
         self.assertEqual(3, len(l))
 
     def test_read2(self):
-        printer = CSVPrinter("./sample.csv")
+        printer = CSVPrinter("sample.csv")
         line = printer.read()
         abc="ABC"
         for i in range(3):
